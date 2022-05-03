@@ -1,0 +1,32 @@
+/*Color*/
+.bg-image{
+	background-color:
+	rgb(94, 177, 255);
+	background-size:cover;
+}
+
+.btn-navy{
+	color:white;
+	background-color:	rgb(6, 108, 203);
+}
+
+.btn-navy:hover{
+	color:white;
+	background-color:#0d47a1;
+}
+/*Off-Canvas(SideBar)*/
+.offcanvas{
+	width:200px;
+}
+
+@media(min-width:992px){
+	.offcanvas{
+	transform:none;
+	visibility:visible!important;
+	}
+	
+	.offcanvas-outside{
+	transition: margin-left 0.3s ease-in-out;
+	margin-left:200px;
+	}
+}
